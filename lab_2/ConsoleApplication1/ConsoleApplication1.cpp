@@ -1,13 +1,9 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
 #include <fstream>
 #include <string>
 #define VARIANT1
 
 using namespace std;
-
-
-
 
 int main()
 {
@@ -28,6 +24,5 @@ ofstream file("file.txt");
 
         file.close();
     }  
-    
     return 1;
 }
